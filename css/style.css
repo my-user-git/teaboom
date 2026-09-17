@@ -1,0 +1,53 @@
+:root {
+  --gray-text-secondary: #8a8a8a;
+}
+
+/* common */
+.container {
+  margin: 0 auto;
+}
+
+/* main */
+main {
+  display: grid;
+  grid-template-areas: "product aside" "content content";
+  grid-template-columns: 1fr 25%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  margin: 0;
+}
+
+/* product-section */
+.product-section {
+  grid-area: product;
+  display: grid;
+  grid-template-areas: "h1 h1" "image desc";
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 60px;
+}
+.product-section__h1 {
+  grid-area: h1;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+}
+.product-section__img {
+  grid-area: image;
+}
+.product-section__desc {
+  grid-area: desc;
+}
+
+/* aside */
+.aside {
+  grid-area: aside;
+}
+
+/* content */
+.content {
+  grid-area: content;
+}/*# sourceMappingURL=style.css.map */
