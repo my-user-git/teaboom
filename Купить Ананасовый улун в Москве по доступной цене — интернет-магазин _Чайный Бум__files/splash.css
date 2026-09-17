@@ -1,0 +1,39 @@
+.html {
+    height: 100%;
+    width: 100%;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.splash {
+    background-color: #fbfbfb;
+    background-image: url("/static/assets/images/transp_patttern.png?a76bebbb36d7");
+    /*background-image: url("/static/assets/images/__transp_patttern.png?a76bebbb36d7");*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 10000000000000;
+}
+
+.splash-logo {
+    /*border: darkblue solid 2px;*/
+    width: 150px;
+    height: 40px;
+    margin: 100px auto 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
